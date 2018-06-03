@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>가위바위보로 몬스터 물리치기 게임</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="wrap">
+   <h2>가위바위보로 몬스터 물리치기 게임</h2>
+    <section class="info">
+        <p>남은 공격 기회 : <span id="oppo"></span></p>
+        <p>처치한 몬스터 : <span id="kill"></span></p>
+        <p>공격력 : <span id="atk"></span></p>
+        <p>생명력 : <span id="life"></span></p>
+    </section>
+    <div class="monster_section">
+        <div id="monster_health">
+            <div id="monster_health_gauge"></div>
+        </div>
+        <p id="monster_health_text">50 / 50</p>
+        <div id="monster"></div>
+    </div>
+    
+    
+    <form action="" id="form">
+        <h3>무기를 선택하세요!</h3>
+        <input type="radio" name="submit_attack" value="scissor" id="weapon_scissor" checked>
+        <label for="weapon_scissor">가위</label>
+        <input type="radio" name="submit_attack" value="rock" id="weapon_rock">
+        <label for="weapon_rock">바위</label>
+        <input type="radio" name="submit_attack" value="paper" id="weapon_paper">
+        <label for="weapon_paper">보</label>
+        <input type="submit" name="submit_attack" value="공격!" class="submit_button">
+      </form>
+    <div class="user_section">
+        <div id="user_health">
+            <div id="user_health_gauge"></div>
+        </div>
+        <p id="user_health_text">100 / 100</p>
+        <div id="item_list">
+            <p>ITEM</p>
+            
+        </div>
+    </div>
+    
+    <section class="log">
+        <table id="table">
+        <tr>
+          <th>회차</th>
+          <th>공격</th> 
+          <th>결과</th>
+          <th>로그</th>
+        </tr>
+      </table>        
+    </section>
+    
+</div>
+    
+<script src="./script.js"></script>
+</body>
+</html>

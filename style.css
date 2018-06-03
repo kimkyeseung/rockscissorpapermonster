@@ -1,0 +1,146 @@
+@charset "utf-8";
+.wrap{
+    max-width: 1400px;
+    min-width: 800px;
+    width: 100%;
+    height:800px;
+    
+    margin: 0 auto;
+    padding-right: 60px;
+    
+    position: relative;
+}
+h2{
+    text-align: center
+}
+.info{
+    position: absolute;
+    top: 20px; left: 20px;
+    border: 2px solid tomato;
+    border-radius: 12px;
+    padding: 4px 20px;
+    
+}
+.monster_section{}
+#monster_health{
+    width: 200px;
+    height: 10px;
+    margin: 0 auto;
+    border: 1px solid #555;
+    border-radius: 4px;
+    overflow: hidden;
+}
+#monster_health_gauge{
+    width: 100%;
+    height: 100%;
+    background-color: lime;
+}
+#monster_health_text{
+    text-align: center;
+}
+#monster{
+    width: 140px;height: 140px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    border-radius:100%;
+    background-color:red;
+    color:white;
+    text-align:center;
+    line-height:140px;
+}
+
+#form{
+    width: 200px;
+    height: 120px;
+    
+    margin: 0 auto;
+    margin-top: 60px;
+}
+#form h3{
+    text-align: center;
+}
+#form input{}
+#form label{margin-right: 10px;}
+#form .submit_button{
+    width: 40px;height: 10px;
+    display: block;
+    margin: 10px auto 20px;
+}
+.user_section{
+    width: 200px;
+    margin:0 auto;
+}
+#user_health{
+    width: 200px;
+    height: 10px;
+    margin: 0 auto;
+    border: 1px solid #555;
+    border-radius: 4px;
+    overflow: hidden;
+}
+#user_health_gauge{
+    width: 100%;
+    height: 100%;
+    background-color: lime;
+}
+#user_health_text{
+    text-align: center;
+}
+#item_list{
+    padding:20px 20px 4px;
+    border: 2px solid tomato;
+    border-radius: 12px;
+}
+#item_list p {
+    width: 60px;
+    height: 24px;
+    margin:0 auto;
+    margin-top: -30px;
+    text-align: center;
+    line-height:24px;
+    background-color:white;
+}
+
+#item_list .item{
+    display: inline-block;
+    background-color: red;
+    width: 40px;height: 40px;
+    border-radius: 100%;
+    margin: 10px 4px;
+}
+
+.log{
+    position: absolute;
+    top: 20px; right: 20px;
+    border-radius: 12px;
+}
+#table{
+  width: 300px;
+  text-align:center;
+  border: 1px solid tomato;
+  border-radius: 4px
+}
+#table tr{
+}
+#table th{
+  background-color:tomato
+}
+#table th:nth-child(1){
+  width: 30px;
+}
+#table th:nth-child(2){
+  width: 30px;
+}
+#table th:nth-child(3){
+  width: 45px;
+}
+
+.restart_button{
+    background-color: tomato;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 120px;
+}
